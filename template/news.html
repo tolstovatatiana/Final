@@ -1,0 +1,8 @@
+{% for x in quote_objects %}
+    <li>
+        <h2>
+            {{ x.text }}
+        </h2>
+        <h1>{{ x.quote_author }}</h1>
+    </li>
+{% endfor %}
